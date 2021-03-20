@@ -16,7 +16,7 @@ public class ExerciseSubscriber implements Observer {
 			return;
 		}
 		String updatedExercise = this.exercise.getUpdate();
-		System.out.println(this.getName() + " received an update from topic: " + updatedExercise);
+		System.out.println(this.getName() + " received an update from instructor: " + updatedExercise);
 	}
 
 	@Override
